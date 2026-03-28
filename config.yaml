@@ -17,3 +17,13 @@ interfaces:
     token: "TELEGRAM_BOT_TOKEN"
     allowed_users: 
       - 1218316705 # 換成你自己的 Telegram ID 數字，防止別人亂用
+
+# 其他設定...
+
+skills:
+  - name: "search"
+    enabled: true
+    provider: "tavily"
+    # 安全第一：一樣寫入提示文字，不要把 tvly-... 寫在這裡！
+    api_key: "TAVILY_API_KEY"
+    
