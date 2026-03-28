@@ -1,0 +1,19 @@
+core:
+  name: "My-OpenClaw"
+  language: "zh-TW"
+  soul_path: "./SOUL.md"
+  memory_path: "./data/memory" # 記憶存放點，稍後會在 Zeabur 設定
+
+llm:
+  provider: "google"
+  model: "gemini-2.5-flash"
+  # 注意：不要寫真實的 Key，留空或寫佔位符
+  api_key: "OPENAI_API_KEY"
+
+interfaces:
+  telegram:
+    enabled: true
+    # 注意：不要寫真實的 Token
+    token: "TELEGRAM_BOT_TOKEN"
+    allowed_users: 
+      - 1218316705 # 換成你自己的 Telegram ID 數字，防止別人亂用
